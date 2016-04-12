@@ -204,7 +204,7 @@ var ENV = ENV || (function() {
 
   return  {
     generateData: getData,
-    rows: 50,
+    rows: 500,
     timeout: 0,
     mutations: mutations
   };
