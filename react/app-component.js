@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var Query = React.createClass({
   shouldComponentUpdate: function(nextProps, nextState) {
     if (nextProps.elapsedClassName !== this.props.elapsedClassName) return true;
@@ -91,4 +89,4 @@ var DBMon = React.createClass({
   }
 });
 
-React.render(<DBMon />, document.getElementById('dbmon'));
+ReactDOM.render(<DBMon />, document.getElementById('dbmon'));
